@@ -25,7 +25,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
        $routeProvider.when('/view9',{templateUrl:'partials/kmeans.html'});
 	   $routeProvider.when("/view10",{templateUrl:'partials/random_forest.html'});
 	   $routeProvider.when("/view11",{templateUrl:'partials/nearest_neighbor.html'});
-	   $routeProvider.when("/view13",{templateUrl:'partials/groupby.html'});
+	   $routeProvider.when("/view12",{templateUrl:'partials/autoencoder.html'});
 	   $routeProvider.when("/view14",{templateUrl:'partials/series.html'});
 	   $routeProvider.when("/view15",{templateUrl:'partials/Untitled18.html'});
 	   $routeProvider.when("/view16",{templateUrl:'partials/Untitled19.html'});
