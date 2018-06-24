@@ -3,7 +3,7 @@
 	id = "com.mycompany.devasenapathi"
     versionCode = "12"
     version = "2.4"
-	android-versionCode="103070" 
+	android-versionCode="103071" 
 xmlns="http://www.w3.org/ns/widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
@@ -22,13 +22,19 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <author email="ingalbi@gmail.com" href="http://ingalb.info/">ingalb</author>
     <content src="index.html" />
     <access origin="*" />
-
+	<preference name="android-targetSdkVersion" value="26"/>
+	<preference name="android-minSdkVersion" value="26"/> //android 3.0
+	
     
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 		
     
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" /> 
+		
+	<gap:plugin name="cordova-android-support-gradle-release" source="npm" />
+    
+		
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     
 		
