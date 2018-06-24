@@ -27,7 +27,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
 	   $routeProvider.when("/view11",{templateUrl:'partials/nearest_neighbor.html'});
 	   $routeProvider.when("/view12",{templateUrl:'partials/autoencoder.html'});
 	   $routeProvider.when("/view14",{templateUrl:'partials/bidirectional_rnn.html'});
-	   $routeProvider.when("/view15",{templateUrl:'partials/Untitled18.html'});
+	   $routeProvider.when("/view15",{templateUrl:'partials/tensorflow_dataset_api.html'});
 	   $routeProvider.when("/view16",{templateUrl:'partials/Untitled19.html'});
 	   $routeProvider.when("/view17",{templateUrl:'partials/Untitled20.html'});
 	   $routeProvider.when("/view18",{templateUrl:'partials/Untitled21.html'});
