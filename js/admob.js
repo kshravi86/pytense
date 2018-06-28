@@ -24,6 +24,7 @@ if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
 
 function initApp() {
     if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
+	alert('adcalled');
 
     AdMob.createBanner( {
         adId: admobid.banner, 
