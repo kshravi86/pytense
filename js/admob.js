@@ -14,7 +14,7 @@ if( /(android)/i.test(navigator.userAgent) ) {
         banner: 'ca-app-pub-6869992474017983/8878394753',
         interstitial: 'ca-app-pub-6869992474017983/1355127956'
     };
-}
+}alert('adcalled');
 //lert('adcalled');
 
 if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
@@ -25,7 +25,7 @@ if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
 
 function initApp() {
     if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
-	alert('adcalled');
+	
 
     AdMob.createBanner( {
         adId: admobid.banner, 

@@ -56,9 +56,9 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
 		$routeProvider.otherwise({redirectTo: '/'});
   }]);
   
-  myApp.directive('loadScript', [function() {
+  myApp.directive('ngScript', [function() {
     return function(scope, element, attrs) {
-        angular.element('<script src="js/admob.js"></script>').appendTo(element);
+        angular.element('<script >alert("mine");</script>').appendTo(element);
     }
 }]);
   
