@@ -29,11 +29,11 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
 	   $routeProvider.when("/view14",{templateUrl:'partials/bidirectional_rnn.html'});
 	   $routeProvider.when("/view15",{templateUrl:'partials/tensorflow_dataset_api.html'});
 	   $routeProvider.when("/view16",{templateUrl:'partials/tensorboard_basic.html'});
-	   $routeProvider.when("/view17",{templateUrl:'partials/Untitled20.html'});
-	   $routeProvider.when("/view18",{templateUrl:'partials/Untitled21.html'});
+	   $routeProvider.when("/view17",{templateUrl:'partials/multilayer_perceptron.html'});
+	   $routeProvider.when("/view18",{templateUrl:'partials/convolutional_network.html'});
 	   
 	   
-	  $routeProvider.when("/view20",{templateUrl:'partials/Untitled22.html'});
+	  $routeProvider.when("/view20",{templateUrl:'partials/dynamic_rnn.html'});
 	  $routeProvider.when("/view21",{templateUrl:'partials/Untitled23.html'});
 	  $routeProvider.when("/view22",{templateUrl:'partials/Untitled24.html'});
 	  $routeProvider.when("/view23",{templateUrl:'partials/Untitled25.html'});
