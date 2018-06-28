@@ -15,7 +15,7 @@ if( /(android)/i.test(navigator.userAgent) ) {
         interstitial: 'ca-app-pub-6869992474017983/1355127956'
     };
 }
-alert('adcalled');
+//lert('adcalled');
 
 if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
     document.addEventListener('deviceready', initApp, false);
