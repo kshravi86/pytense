@@ -3,7 +3,10 @@ if( /(android)/i.test(navigator.userAgent) ) {
     admobid = { // for Android
         banner: 'ca-app-pub-5830283354936773/2401890573',
        interstitial: 'ca-app-pub-5830283354936773/3605971663'
-	   };
+	   
+	   
+	   
+    };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
     admobid = { // for iOS
         banner: 'ca-app-pub-6869992474017983/4806197152',
@@ -15,7 +18,6 @@ if( /(android)/i.test(navigator.userAgent) ) {
         interstitial: 'ca-app-pub-6869992474017983/1355127956'
     };
 }
-//lert('adcalled');
 
 if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
     document.addEventListener('deviceready', initApp, false);
@@ -25,7 +27,6 @@ if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
 
 function initApp() {
     if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
-	
 
     AdMob.createBanner( {
         adId: admobid.banner, 
